@@ -1,38 +1,39 @@
 title {
   font-family: Roboto;
  }
+
 body {
   margin: 0;
- 
 }
-.header{
+
+.header {
   display: flex;
   justify-content: space-between;
 }
-.main-section{
-  
- 
-}
-.wrapper{
+
+.wrapper {
   margin: auto;
   width: 80%;
  }
+
 .logo, .menu {    
-  display: inline-block;    
- 
+  display: inline-block; 
+ } 
+
+  .logo { 
+  margin-right: 63%;
+    padding: 40px 0; 
   } 
-  .logo {    
-  margin-right: 63%; 
-   padding: 40px 0; 
-  } 
-  .menu {    
-    display: flex;    
-    align-items: center; 
+
+  .menu {
+    display: flex; 
+    align-items: center;
     } 
-    .menu__item {   
+
+    .menu__item { 
       padding: 0 13px;    
-     
+      }
+
+      .menu__item:last-child {
+         padding-right: 0;
       } 
-      .menu__item:last-child {    
-        padding-right: 0;  
-        } 
