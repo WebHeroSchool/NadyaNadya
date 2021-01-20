@@ -16,24 +16,24 @@ body {
   width: 80%;
  }
 
-.logo, .menu {    
-  display: inline-block; 
- } 
+.logo, .menu { 
+  display: inline-block;
+ }
 
-  .logo { 
+.logo {
   margin-right: 63%;
     padding: 40px 0; 
   } 
 
-  .menu {
-    display: flex; 
-    align-items: center;
+.menu {
+      display: flex;
+      align-items: center;
     } 
 
-    .menu__item { 
-      padding: 0 13px;    
+.menu__item {
+    padding: 0 13px;
       }
 
-      .menu__item:last-child {
-         padding-right: 0;
-      } 
+.menu__item:last-child {
+         padding-right:  0;
+        } 
