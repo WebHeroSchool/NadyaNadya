@@ -17,18 +17,18 @@ body {
   width: 80%;
  }
 
- .logo, .menu{
+ .logo,.menu {
   display: inline-block;
  }
 
- .logo{
+ .logo {
  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
  padding-left: 44px;
  position: relative;
  }  
 
  .logo__circle {
-   width: 28px;  
+   width: 28px;
    height: 28px;
     position: absolute;
     left: 0;  
