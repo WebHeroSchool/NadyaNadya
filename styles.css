@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-  padding: 40px 0; 
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -17,37 +17,36 @@ body {
   width: 80%;
  }
 
- .logo, .menu {
+ .logo, .menu{
   display: inline-block;
  }
 
  .logo{
  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
- padding-left: 44px;  
+ padding-left: 44px;
  position: relative;
  }  
 
- .logo__circle{
-   width: 28px;
+ .logo__circle {
+   width: 28px;  
    height: 28px;
     position: absolute;
-    left: 0;
-    top: 50%;
+    left: 0;  
+    top: 50%;  
     transform: translateY(-50%);
  }
  
-
-   .logo__circle_color_blue{
+   .logo__circle_color_blue {
      left: 8px;
      top: 56%;
-      background: #C8DBFB;
+      background: #c8dbfb;
       border-radius: 50%;
       opacity: .7;
      }
 
-     .logo__circle_color_dark-blue{
+     .logo__circle_color_dark-blue {
      border-radius: 50%;
-     background: #0056EC;
+     background: #0056ec;
        opacity: .7;
       }
 
@@ -65,7 +64,7 @@ body {
      padding-right: 0;
         }
 
-        @font-face {
+        @font-face{
           font-family: 'pt_serifbold';
           src: url('fonts/ptserif-bold-webfont.woff') format('woff');
           font-weight: normal;
