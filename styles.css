@@ -21,38 +21,35 @@ body {
   display: inline-block;
  }
 
- .logo {
-  position: relative;
-  left: 50px;
- padding: 40px 0;
+ .logo{
+ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
  padding-left: 44px;  
- font: bold 24px/31px pt_serif, arial, h   elvetica, sans-serif;
+ position: relative;
  }  
 
- .logo__circle_colour_dark-blue {
-   position: absolute;
-   left:0;
-   top:50%;
-   transform: translateY(-50%)
-    width: 28px;    
-    height: 28px;
-    border:dashed 1px red;
-    background: #0056EC;
-    border-radius: 50%;
-    opacity: .7;
-    }
+ .logo__circle{
+   width: 28px;
+   height: 28px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+ }
+ 
 
-   .logo__circle_colour_blue {
-     position: absolute;
+   .logo__circle_color_blue{
      left: 8px;
      top: 56%;
-     transform: translateY(-50%); 
-      width: 28px;    
-      height: 28px;
       background: #C8DBFB;
       border-radius: 50%;
       opacity: .7;
      }
+
+     .logo__circle_color_dark-blue{
+     border-radius: 50%;
+     background: #0056EC;
+       opacity: .7;
+      }
 
 
 .menu {
@@ -74,6 +71,7 @@ body {
           font-weight: normal;
           font-style: normal;
       } 
+
        
 
 
