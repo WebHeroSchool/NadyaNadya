@@ -21,11 +21,39 @@ body {
   display: inline-block;
  }
 
- .logo {    
-    width: 190px;
-    height: 35px;
-    background:  url('img/logo.svg');
-  }  
+ .logo {
+  position: relative;
+  left: 50px;
+ padding: 40px 0;
+ padding-left: 44px;  
+ font: bold 24px/31px pt_serif, arial, h   elvetica, sans-serif;
+ }  
+
+ .logo__circle_colour_dark-blue {
+   position: absolute;
+   left:0;
+   top:50%;
+   transform: translateY(-50%)
+    width: 28px;    
+    height: 28px;
+    border:dashed 1px red;
+    background: #0056EC;
+    border-radius: 50%;
+    opacity: .7;
+    }
+
+   .logo__circle_colour_blue {
+     position: absolute;
+     left: 8px;
+     top: 56%;
+     transform: translateY(-50%); 
+      width: 28px;    
+      height: 28px;
+      background: #C8DBFB;
+      border-radius: 50%;
+      opacity: .7;
+     }
+
 
 .menu {
     display: flex;
@@ -38,5 +66,17 @@ body {
 
 .menu__item:last-child {
      padding-right: 0;
-        } 
+        }
+
+        @font-face {
+          font-family: 'pt_serifbold';
+          src: url('fonts/ptserif-bold-webfont.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+      } 
+       
+
+
+
+
 
